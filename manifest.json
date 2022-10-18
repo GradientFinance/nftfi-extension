@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "NFTfi x Gradient",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["nftfi.js"],
+      "run_at" : "document_end"
+    }
+  ]
+}
